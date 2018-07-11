@@ -1,0 +1,29 @@
+﻿<div id="fh5co-couple" class="fh5co-section-gray">
+    <div class="container">
+        <div class="row row-bottom-padded-md animate-box">
+            <div class="col-md-6 col-md-offset-3 text-center">
+                <div class="col-md-5 col-sm-5 col-xs-5 nopadding">
+                    <img src="../../images/@Model.Groom.Picture" class="img-responsive" alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
+                    <h3>
+                        @Model.Groom.FirstName @Model.Groom.LastName
+                    </h3>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-2 nopadding"><h2 class="amp-center"><i class="icon-heart"></i></h2></div>
+                <div class="col-md-5 col-sm-5 col-xs-5 nopadding">
+                    <img src="../../images/@Model.Bride.Picture" class="img-responsive" alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
+                    <h3>
+                        @Model.Bride.FirstName @Model.Bride.LastName
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="row animate-box">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="col-md-12 text-center heading-section">
+                    <h2>@Model.Title</h2>
+                    <p><strong>on @Model.Date.ToString("MMM d, yyyy") &mdash; @Model.City, @Model.Country</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
